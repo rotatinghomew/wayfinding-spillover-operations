@@ -1,0 +1,103 @@
+{
+  "rotation": {
+    "summary": "事前分配单；分钟自场馆当日零点起，N、E 为两个入口。",
+    "header": [
+      "round",
+      "day",
+      "start",
+      "end",
+      "buffer",
+      "north",
+      "east"
+    ]
+  },
+  "signs": {
+    "summary": "实际换牌记录；同编号较大修订替代较早版本。",
+    "header": [
+      "event",
+      "round",
+      "gate",
+      "minute",
+      "sign",
+      "revision"
+    ]
+  },
+  "parties": {
+    "summary": "每条为一个观测队伍，last_seen 的含义为最后有效观察分钟。",
+    "header": [
+      "party",
+      "round",
+      "first_gate",
+      "entry",
+      "last_gate",
+      "exit",
+      "arrival",
+      "last_seen"
+    ]
+  },
+  "queues": {
+    "summary": "在相应分钟起的两分钟观测；空白表示覆盖断档。",
+    "header": [
+      "round",
+      "gate",
+      "minute",
+      "people"
+    ]
+  },
+  "links": {
+    "summary": "共同可达通道有效区间与通告时间，计划外通道另列；同号最高可见修订生效。",
+    "header": [
+      "link",
+      "revision",
+      "round",
+      "gate_a",
+      "gate_b",
+      "start",
+      "end",
+      "declared",
+      "received"
+    ]
+  },
+  "dispatch": {
+    "summary": "运营提交的各入口安排及关联证据分配块、邻接；状态是输入事实而非分析决定。",
+    "header": [
+      "request",
+      "revision",
+      "gates",
+      "combo",
+      "evidence_round",
+      "policy_day",
+      "start",
+      "end",
+      "state",
+      "as_of"
+    ]
+  },
+  "next_round_constraints": {
+    "summary": "指定日期口径下可随机轮换的时段。shared_buffer 引用同一个只能占用一次的共用隔离资源。",
+    "header": [
+      "candidate",
+      "day",
+      "shift",
+      "start",
+      "end",
+      "gates",
+      "allowed",
+      "shared_buffer",
+      "guide_hours",
+      "minimum_coverage"
+    ]
+  },
+  "next_round_signatures": {
+    "summary": "志愿班次可出借时间及既有签认；incompatible 表示不能再次配置该班。",
+    "header": [
+      "record",
+      "candidate",
+      "shift",
+      "combo",
+      "state",
+      "effective",
+      "shared_hours"
+    ]
+  }
+}

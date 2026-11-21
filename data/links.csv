@@ -1,0 +1,5 @@
+link,revision,round,gate_a,gate_b,start,end,declared,received
+L1,0,05-1,N,E,585,623,yes,2026-10-01
+L2,0,05-1,N,W,620,640,no,2026-10-07
+L2,1,05-1,N,W,590,640,no,2026-10-19
+L3,0,11-0,N,E,540,578,yes,2026-10-01

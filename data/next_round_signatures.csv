@@ -1,0 +1,5 @@
+record,candidate,shift,combo,state,effective,shared_hours
+L01,C0-0,Z1,old/new,signed,2026-10-19T10:00,2
+L02,C0-1,Z1,new/old,signed,2026-10-19T11:00,2
+L03,C0-2,Z1,,incompatible,2026-10-20T09:00,2
+L04,C1-0,Z2,old/new,offered,2026-10-20T12:00,2

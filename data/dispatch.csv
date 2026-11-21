@@ -1,0 +1,5 @@
+request,revision,gates,combo,evidence_round,policy_day,start,end,state,as_of
+D01,0,N+E,new/new,05-1,2026-10-21,540,578,planned,2026-10-21T08:55
+D02,0,N+E,new/old,05-1,2026-10-18,585,623,started,2026-10-18T09:45
+I03,0,W,old,11-0,2026-10-21,578,585,buffer_signed,2026-10-18
+D04,0,N+E,old/new,11-0,2026-10-22,540,578,planned,2026-10-19

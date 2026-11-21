@@ -1,0 +1,11 @@
+{
+  "arrival_window_minutes": 22,
+  "queue_limit_people": 16,
+  "max_extra_over_limit_minutes": 4,
+  "min_arrival_gain_minutes": 1,
+  "min_comparable_blocks": 4,
+  "interval_level": 0.9,
+  "queue_reading_span_minutes": 2,
+  "design_targets": "下一轮希望区分主效应、外溢和交互。只有有机会安排相应全部组合的块，才计入对应差别的可比块数。调整后固定的已签安排不重新随机。",
+  "allocation_rule": "同一个日期的四轮是一整个分配块，公布的四类组合各出现一次；块内其它安排等同。每轮 N、E 事前共同可达，其他通道只按通告记录。队伍以第一入口所属轮次归组。队伍仍可连到下一轮时，两轮比较均需扣除该项证据支持。exit=closed 表示闭馆时确认未到达，lost 表示观察中断。"
+}
