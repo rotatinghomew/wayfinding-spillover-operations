@@ -1,0 +1,178 @@
+{
+  "main_N": {
+    "title": "N 口主效应（N 自己换牌的效果）",
+    "clean_blocks": [],
+    "gap_only_blocks": [
+      "2026-10-01"
+    ],
+    "confounded_blocks": [
+      "2026-10-02",
+      "2026-10-03",
+      "2026-10-04",
+      "2026-10-05",
+      "2026-10-06",
+      "2026-10-07",
+      "2026-10-08",
+      "2026-10-09",
+      "2026-10-10",
+      "2026-10-11",
+      "2026-10-12"
+    ],
+    "missing_combo_blocks": [],
+    "n_blocks": 0,
+    "required_blocks": 4,
+    "point": null,
+    "ci_low": null,
+    "ci_high": null,
+    "relaxed": {
+      "n_eligible": 1,
+      "n_blocks": 0,
+      "point": null,
+      "ci_low": null,
+      "ci_high": null
+    },
+    "relaxed_available": true,
+    "verdict": "no_clean_block"
+  },
+  "main_E": {
+    "title": "E 口主效应（E 自己换牌的效果）",
+    "clean_blocks": [
+      "2026-10-03",
+      "2026-10-07",
+      "2026-10-08"
+    ],
+    "gap_only_blocks": [
+      "2026-10-01"
+    ],
+    "confounded_blocks": [
+      "2026-10-02",
+      "2026-10-04",
+      "2026-10-05",
+      "2026-10-06",
+      "2026-10-09",
+      "2026-10-10",
+      "2026-10-11",
+      "2026-10-12"
+    ],
+    "missing_combo_blocks": [],
+    "n_blocks": 3,
+    "required_blocks": 4,
+    "point": -3.9246031746031753,
+    "ci_low": -6.6863946382526915,
+    "ci_high": -1.1628117109536595,
+    "relaxed": {
+      "n_eligible": 4,
+      "n_blocks": 3,
+      "point": -3.9246031746031753,
+      "ci_low": -6.6863946382526915,
+      "ci_high": -1.1628117109536595
+    },
+    "relaxed_available": true,
+    "verdict": "below_block_threshold"
+  },
+  "spill_N": {
+    "title": "外溢到 N（E 换牌对 N 口队伍的影响）",
+    "clean_blocks": [
+      "2026-10-03",
+      "2026-10-07",
+      "2026-10-08"
+    ],
+    "gap_only_blocks": [
+      "2026-10-01"
+    ],
+    "confounded_blocks": [
+      "2026-10-02",
+      "2026-10-04",
+      "2026-10-05",
+      "2026-10-06",
+      "2026-10-09",
+      "2026-10-10",
+      "2026-10-11",
+      "2026-10-12"
+    ],
+    "missing_combo_blocks": [],
+    "n_blocks": 3,
+    "required_blocks": 4,
+    "point": -0.5753968253968248,
+    "ci_low": -3.0594410719524396,
+    "ci_high": 1.9086474211587903,
+    "relaxed": {
+      "n_eligible": 4,
+      "n_blocks": 3,
+      "point": -0.5753968253968248,
+      "ci_low": -3.0594410719524396,
+      "ci_high": 1.9086474211587903
+    },
+    "relaxed_available": true,
+    "verdict": "below_block_threshold"
+  },
+  "spill_E": {
+    "title": "外溢到 E（N 换牌对 E 口队伍的影响）",
+    "clean_blocks": [],
+    "gap_only_blocks": [
+      "2026-10-01"
+    ],
+    "confounded_blocks": [
+      "2026-10-02",
+      "2026-10-03",
+      "2026-10-04",
+      "2026-10-05",
+      "2026-10-06",
+      "2026-10-07",
+      "2026-10-08",
+      "2026-10-09",
+      "2026-10-10",
+      "2026-10-11",
+      "2026-10-12"
+    ],
+    "missing_combo_blocks": [],
+    "n_blocks": 0,
+    "required_blocks": 4,
+    "point": null,
+    "ci_low": null,
+    "ci_high": null,
+    "relaxed": {
+      "n_eligible": 1,
+      "n_blocks": 0,
+      "point": null,
+      "ci_low": null,
+      "ci_high": null
+    },
+    "relaxed_available": true,
+    "verdict": "no_clean_block"
+  },
+  "interaction": {
+    "title": "交互（两口同时换牌与分别换牌的差别）",
+    "clean_blocks": [],
+    "gap_only_blocks": [],
+    "confounded_blocks": [
+      "2026-10-01",
+      "2026-10-02",
+      "2026-10-03",
+      "2026-10-04",
+      "2026-10-05",
+      "2026-10-06",
+      "2026-10-07",
+      "2026-10-08",
+      "2026-10-09",
+      "2026-10-10",
+      "2026-10-11",
+      "2026-10-12"
+    ],
+    "missing_combo_blocks": [],
+    "n_blocks": 0,
+    "required_blocks": 4,
+    "point": null,
+    "ci_low": null,
+    "ci_high": null,
+    "relaxed": {
+      "n_eligible": 0,
+      "n_blocks": 0,
+      "point": null,
+      "ci_low": null,
+      "ci_high": null
+    },
+    "relaxed_available": false,
+    "verdict": "no_clean_block"
+  }
+}

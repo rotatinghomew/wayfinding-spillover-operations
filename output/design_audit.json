@@ -1,0 +1,254 @@
+{
+  "baseline": {
+    "main_N": {
+      "title": "N 口主效应（N 自己换牌的效果）",
+      "counts": {
+        "full": 10,
+        "coverage": 0,
+        "partial": 0,
+        "absent": 2
+      },
+      "full_blocks": 10,
+      "required": 4,
+      "verdict": "supported",
+      "block_detail": [
+        {
+          "day": "2026-10-23",
+          "level": "absent",
+          "detail": "因子 N 只有层级 new，无对照层级"
+        },
+        {
+          "day": "2026-10-25",
+          "level": "absent",
+          "detail": "因子 N 只有层级 new，无对照层级"
+        }
+      ]
+    },
+    "main_E": {
+      "title": "E 口主效应（E 自己换牌的效果）",
+      "counts": {
+        "full": 10,
+        "coverage": 2,
+        "partial": 0,
+        "absent": 0
+      },
+      "full_blocks": 10,
+      "required": 4,
+      "verdict": "supported",
+      "block_detail": [
+        {
+          "day": "2026-10-21",
+          "level": "coverage",
+          "detail": "层级齐备但 without_E 时段 E 口结果无完整观察覆盖；本块无 full 覆盖时段"
+        },
+        {
+          "day": "2026-10-27",
+          "level": "coverage",
+          "detail": "层级齐备但 without_E 时段 E 口结果无完整观察覆盖；本块无 full 覆盖时段"
+        }
+      ]
+    },
+    "spill_N": {
+      "title": "外溢到 N（E 换牌对 N 口队伍的影响）",
+      "counts": {
+        "full": 12,
+        "coverage": 0,
+        "partial": 0,
+        "absent": 0
+      },
+      "full_blocks": 12,
+      "required": 4,
+      "verdict": "supported",
+      "block_detail": []
+    },
+    "spill_E": {
+      "title": "外溢到 E（N 换牌对 E 口队伍的影响）",
+      "counts": {
+        "full": 8,
+        "coverage": 2,
+        "partial": 0,
+        "absent": 2
+      },
+      "full_blocks": 8,
+      "required": 4,
+      "verdict": "supported",
+      "block_detail": [
+        {
+          "day": "2026-10-21",
+          "level": "coverage",
+          "detail": "层级齐备但 without_E 时段 E 口结果无完整观察覆盖；本块无 full 覆盖时段"
+        },
+        {
+          "day": "2026-10-23",
+          "level": "absent",
+          "detail": "因子 N 只有层级 new，无对照层级"
+        },
+        {
+          "day": "2026-10-25",
+          "level": "absent",
+          "detail": "因子 N 只有层级 new，无对照层级"
+        },
+        {
+          "day": "2026-10-27",
+          "level": "coverage",
+          "detail": "层级齐备但 without_E 时段 E 口结果无完整观察覆盖；本块无 full 覆盖时段"
+        }
+      ]
+    },
+    "interaction": {
+      "title": "交互（两口同时换牌与分别换牌的差别）",
+      "counts": {
+        "full": 9,
+        "coverage": 0,
+        "partial": 3,
+        "absent": 0
+      },
+      "full_blocks": 9,
+      "required": 4,
+      "verdict": "supported",
+      "block_detail": [
+        {
+          "day": "2026-10-21",
+          "level": "partial",
+          "detail": "交互需四类组合同块，缺少 old/old（本块仅排 3 个可执行时段）"
+        },
+        {
+          "day": "2026-10-23",
+          "level": "partial",
+          "detail": "交互需四类组合同块，缺少 old/new/old/old（本块仅排 2 个可执行时段）"
+        },
+        {
+          "day": "2026-10-25",
+          "level": "partial",
+          "detail": "交互需四类组合同块，缺少 old/new/old/old（本块仅排 2 个可执行时段）"
+        }
+      ]
+    }
+  },
+  "offer_accepted": {
+    "main_N": {
+      "title": "N 口主效应（N 自己换牌的效果）",
+      "counts": {
+        "full": 10,
+        "coverage": 0,
+        "partial": 0,
+        "absent": 2
+      },
+      "full_blocks": 10,
+      "required": 4,
+      "verdict": "supported",
+      "block_detail": [
+        {
+          "day": "2026-10-23",
+          "level": "absent",
+          "detail": "因子 N 只有层级 new，无对照层级"
+        },
+        {
+          "day": "2026-10-25",
+          "level": "absent",
+          "detail": "因子 N 只有层级 new，无对照层级"
+        }
+      ]
+    },
+    "main_E": {
+      "title": "E 口主效应（E 自己换牌的效果）",
+      "counts": {
+        "full": 10,
+        "coverage": 2,
+        "partial": 0,
+        "absent": 0
+      },
+      "full_blocks": 10,
+      "required": 4,
+      "verdict": "supported",
+      "block_detail": [
+        {
+          "day": "2026-10-21",
+          "level": "coverage",
+          "detail": "层级齐备但 without_E 时段 E 口结果无完整观察覆盖；本块无 full 覆盖时段"
+        },
+        {
+          "day": "2026-10-27",
+          "level": "coverage",
+          "detail": "层级齐备但 without_E 时段 E 口结果无完整观察覆盖；本块无 full 覆盖时段"
+        }
+      ]
+    },
+    "spill_N": {
+      "title": "外溢到 N（E 换牌对 N 口队伍的影响）",
+      "counts": {
+        "full": 12,
+        "coverage": 0,
+        "partial": 0,
+        "absent": 0
+      },
+      "full_blocks": 12,
+      "required": 4,
+      "verdict": "supported",
+      "block_detail": []
+    },
+    "spill_E": {
+      "title": "外溢到 E（N 换牌对 E 口队伍的影响）",
+      "counts": {
+        "full": 8,
+        "coverage": 2,
+        "partial": 0,
+        "absent": 2
+      },
+      "full_blocks": 8,
+      "required": 4,
+      "verdict": "supported",
+      "block_detail": [
+        {
+          "day": "2026-10-21",
+          "level": "coverage",
+          "detail": "层级齐备但 without_E 时段 E 口结果无完整观察覆盖；本块无 full 覆盖时段"
+        },
+        {
+          "day": "2026-10-23",
+          "level": "absent",
+          "detail": "因子 N 只有层级 new，无对照层级"
+        },
+        {
+          "day": "2026-10-25",
+          "level": "absent",
+          "detail": "因子 N 只有层级 new，无对照层级"
+        },
+        {
+          "day": "2026-10-27",
+          "level": "coverage",
+          "detail": "层级齐备但 without_E 时段 E 口结果无完整观察覆盖；本块无 full 覆盖时段"
+        }
+      ]
+    },
+    "interaction": {
+      "title": "交互（两口同时换牌与分别换牌的差别）",
+      "counts": {
+        "full": 9,
+        "coverage": 0,
+        "partial": 3,
+        "absent": 0
+      },
+      "full_blocks": 9,
+      "required": 4,
+      "verdict": "supported",
+      "block_detail": [
+        {
+          "day": "2026-10-21",
+          "level": "partial",
+          "detail": "交互需四类组合同块，缺少 old/old（本块仅排 3 个可执行时段）"
+        },
+        {
+          "day": "2026-10-23",
+          "level": "partial",
+          "detail": "交互需四类组合同块，缺少 old/new/old/old（本块仅排 2 个可执行时段）"
+        },
+        {
+          "day": "2026-10-25",
+          "level": "partial",
+          "detail": "交互需四类组合同块，缺少 old/new/old/old（本块仅排 2 个可执行时段）"
+        }
+      ]
+    }
+  }
+}
